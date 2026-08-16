@@ -1,0 +1,8 @@
+[extend]
+useDefault = true
+
+[[allowlists]]
+description = "Static localStorage namespace, not a credential"
+regexTarget = "match"
+paths = ['''^app\.js$''']
+regexes = ["STORAGE_KEY = 'lisboa-signal-decisions-v3'"]
