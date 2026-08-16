@@ -1,0 +1,490 @@
+[
+  {
+    "id": "agenda-lx",
+    "name": "Agenda Cultural de Lisboa",
+    "url": "https://www.agendalx.pt/",
+    "source_type": "official-agenda",
+    "tier": "A",
+    "status": "verified"
+  },
+  {
+    "id": "lisbon-open-data",
+    "name": "Lisboa Open Data – Agenda Cultural",
+    "url": "https://dados.cm-lisboa.pt/dataset?res_format=JSON&tags=Cultura",
+    "source_type": "official-open-data",
+    "tier": "A",
+    "status": "verified"
+  },
+  {
+    "id": "egeac",
+    "name": "Lisboa Cultura / EGEAC",
+    "url": "https://egeac.pt/program/",
+    "source_type": "official-agenda",
+    "tier": "A",
+    "status": "verified"
+  },
+  {
+    "id": "ccb",
+    "name": "Centro Cultural de Belém",
+    "url": "https://www.ccb.pt/en/eventos/list/",
+    "source_type": "institution",
+    "tier": "A",
+    "status": "verified"
+  },
+  {
+    "id": "mac-ccb",
+    "name": "MAC/CCB",
+    "url": "https://www.ccb.pt/macccb/agenda/",
+    "source_type": "institution",
+    "tier": "A",
+    "status": "verified"
+  },
+  {
+    "id": "gulbenkian",
+    "name": "Calouste Gulbenkian Foundation",
+    "url": "https://gulbenkian.pt/agenda/",
+    "source_type": "institution",
+    "tier": "A",
+    "status": "candidate"
+  },
+  {
+    "id": "maat",
+    "name": "MAAT",
+    "url": "https://maat.pt/en/calendar",
+    "source_type": "institution",
+    "tier": "A",
+    "status": "candidate"
+  },
+  {
+    "id": "culturgest",
+    "name": "Culturgest",
+    "url": "https://www.culturgest.pt/en/whats-on/",
+    "source_type": "institution",
+    "tier": "A",
+    "status": "candidate"
+  },
+  {
+    "id": "cinemateca",
+    "name": "Cinemateca Portuguesa",
+    "url": "https://www.cinemateca.pt/Programacao.aspx",
+    "source_type": "institution",
+    "tier": "A",
+    "status": "candidate"
+  },
+  {
+    "id": "galerias-municipais",
+    "name": "Galerias Municipais de Lisboa",
+    "url": "https://galeriasmunicipais.pt/programa-publico/",
+    "source_type": "official-agenda",
+    "tier": "A",
+    "status": "verified"
+  },
+  {
+    "id": "coffeepaste",
+    "name": "Coffeepaste",
+    "url": "https://www.coffeepaste.com/en/",
+    "source_type": "curator-newsletter",
+    "tier": "B",
+    "status": "verified"
+  },
+  {
+    "id": "soko",
+    "name": "Soko",
+    "url": "https://soko.fyi/",
+    "source_type": "commercial-curator",
+    "tier": "B",
+    "status": "verified"
+  },
+  {
+    "id": "lisboa-secreta",
+    "name": "Lisboa Secreta",
+    "url": "https://lisboasecreta.co/",
+    "source_type": "commercial-curator",
+    "tier": "B",
+    "status": "verified"
+  },
+  {
+    "id": "timeout-lisboa",
+    "name": "Time Out Lisboa",
+    "url": "https://www.timeout.pt/lisboa/pt/coisas-para-fazer",
+    "source_type": "commercial-curator",
+    "tier": "B",
+    "status": "candidate"
+  },
+  {
+    "id": "mill",
+    "name": "MILL – Makers In Little Lisbon",
+    "url": "https://mill.pt/events/",
+    "source_type": "independent-community",
+    "tier": "A",
+    "status": "verified"
+  },
+  {
+    "id": "unblock-ai",
+    "name": "Unblock AI Lisbon",
+    "url": "https://unblockai.pt/",
+    "source_type": "independent-community",
+    "tier": "A",
+    "status": "verified"
+  },
+  {
+    "id": "human-entities",
+    "name": "CADA – Human Entities",
+    "url": "https://cada1.net/works/human-entities-2026/",
+    "source_type": "independent-community",
+    "tier": "A",
+    "status": "verified"
+  },
+  {
+    "id": "ectopia",
+    "name": "Ectopia Experimental Art Laboratory",
+    "url": "https://ectopialab.org/",
+    "source_type": "independent-community",
+    "tier": "A",
+    "status": "verified"
+  },
+  {
+    "id": "and-lab",
+    "name": "AND Lab",
+    "url": "https://www.and-lab.org/en",
+    "source_type": "independent-community",
+    "tier": "A",
+    "status": "verified"
+  },
+  {
+    "id": "rna-studio",
+    "name": "RnA Studio Lisbon",
+    "url": "https://www.rna-studio.com/program",
+    "source_type": "independent-community",
+    "tier": "B",
+    "status": "verified"
+  },
+  {
+    "id": "stamika",
+    "name": "Stamika Collective",
+    "url": "https://www.stamika.com/",
+    "source_type": "independent-community",
+    "tier": "B",
+    "status": "verified"
+  },
+  {
+    "id": "a-video",
+    "name": "[A]VIDEO Lisbon",
+    "url": "https://www.a-videolisboa.com/",
+    "source_type": "independent-community",
+    "tier": "A",
+    "status": "verified"
+  },
+  {
+    "id": "sirigaita",
+    "name": "Sirigaita",
+    "url": "https://sirigaitalisboa.substack.com/",
+    "source_type": "curator-newsletter",
+    "tier": "A",
+    "status": "verified"
+  },
+  {
+    "id": "ufonic",
+    "name": "Ufonic",
+    "url": "https://www.ufonic.net/",
+    "source_type": "independent-community",
+    "tier": "A",
+    "status": "verified"
+  },
+  {
+    "id": "amen-lisboa",
+    "name": "AMEN Lisboa",
+    "url": "https://amenlx.com/",
+    "source_type": "independent-community",
+    "tier": "B",
+    "status": "verified"
+  },
+  {
+    "id": "zdb",
+    "name": "Galeria Zé dos Bois",
+    "url": "https://zedosbois.org/",
+    "source_type": "independent-community",
+    "tier": "A",
+    "status": "candidate"
+  },
+  {
+    "id": "arroz-estudios",
+    "name": "Arroz Estúdios",
+    "url": "https://arrozestudios.pt/",
+    "source_type": "independent-community",
+    "tier": "A",
+    "status": "candidate"
+  },
+  {
+    "id": "planeta-manas",
+    "name": "Planeta Manas",
+    "url": "https://www.instagram.com/planeta.manas/",
+    "source_type": "independent-community",
+    "tier": "A",
+    "status": "candidate"
+  },
+  {
+    "id": "musicbox-lisboa",
+    "name": "Musicbox Lisboa",
+    "url": "https://musicboxlisboa.com/",
+    "source_type": "institution",
+    "tier": "B",
+    "status": "candidate"
+  },
+  {
+    "id": "lisbon-design-week",
+    "name": "Lisbon Design Week",
+    "url": "https://lisbondesignweek.com/en/agenda",
+    "source_type": "independent-community",
+    "tier": "A",
+    "status": "verified"
+  },
+  {
+    "id": "trienal-lisboa",
+    "name": "Lisbon Architecture Triennale",
+    "url": "https://www.trienaldelisboa.com/",
+    "source_type": "institution",
+    "tier": "A",
+    "status": "candidate"
+  },
+  {
+    "id": "fuso",
+    "name": "FUSO – Lisbon International Video Art Festival",
+    "url": "https://fusovideoarte.com/",
+    "source_type": "independent-community",
+    "tier": "A",
+    "status": "verified"
+  },
+  {
+    "id": "resident-advisor",
+    "name": "Resident Advisor Lisbon",
+    "url": "https://ra.co/events/pt/lisbon",
+    "source_type": "event-platform",
+    "tier": "B",
+    "status": "verified"
+  },
+  {
+    "id": "meetup-lisbon",
+    "name": "Meetup Lisbon",
+    "url": "https://www.meetup.com/find/pt--lisbon/",
+    "source_type": "event-platform",
+    "tier": "B",
+    "status": "verified"
+  },
+  {
+    "id": "eventbrite-lisbon",
+    "name": "Eventbrite Lisbon",
+    "url": "https://www.eventbrite.com/d/portugal--lisboa/events/",
+    "source_type": "event-platform",
+    "tier": "B",
+    "status": "verified"
+  },
+  {
+    "id": "fever-lisbon",
+    "name": "Fever Lisbon",
+    "url": "https://feverup.com/en/lisbon",
+    "source_type": "event-platform",
+    "tier": "C",
+    "status": "verified"
+  },
+  {
+    "id": "instagram-following",
+    "name": "Instagram following import",
+    "url": "https://www.instagram.com/_inside_insanity/",
+    "source_type": "social-community",
+    "tier": "B",
+    "status": "blocked-auth"
+  },
+  {
+    "id": "castelo-sao-jorge",
+    "name": "Castelo de São Jorge",
+    "url": "https://castelodesaojorge.pt/agenda/",
+    "source_type": "institution",
+    "tier": "A",
+    "status": "verified"
+  },
+  {
+    "id": "operafest",
+    "name": "Operafest Lisboa & Oeiras",
+    "url": "https://www.operafestlisboa.com/en/",
+    "source_type": "institution",
+    "tier": "A",
+    "status": "verified"
+  },
+  {
+    "id": "shotgun-lisbon",
+    "name": "Shotgun Lisbon",
+    "url": "https://shotgun.live/en/lisbon",
+    "source_type": "event-platform",
+    "tier": "B",
+    "status": "verified"
+  },
+  {
+    "id": "fundacao-oriente",
+    "name": "Fundação Oriente",
+    "url": "https://www.foriente.pt/",
+    "source_type": "institution",
+    "tier": "A",
+    "status": "verified"
+  },
+  {
+    "id": "dice-lisbon",
+    "name": "DICE Lisbon",
+    "url": "https://dice.fm/browse/lisbon",
+    "source_type": "event-platform",
+    "tier": "B",
+    "status": "verified"
+  },
+  {
+    "id": "sol-da-caparica",
+    "name": "Festival O Sol da Caparica",
+    "url": "https://festivalosoldacaparica.pt/",
+    "source_type": "institution",
+    "tier": "A",
+    "status": "verified"
+  },
+  {
+    "id": "visit-lisboa",
+    "name": "Visit Lisboa",
+    "url": "https://www.visitlisboa.com/pt-pt/eventos",
+    "source_type": "official-agenda",
+    "tier": "A",
+    "status": "verified"
+  },
+  {
+    "id": "casa-capitao",
+    "name": "Casa Capitão",
+    "url": "https://casa-capitao.com/agenda/",
+    "source_type": "independent-community",
+    "tier": "A",
+    "status": "verified"
+  },
+  {
+    "id": "somo-lisbon",
+    "name": "Somo Lisbon",
+    "url": "https://somo.social/lisbon",
+    "source_type": "event-platform",
+    "tier": "B",
+    "status": "lead-only"
+  },
+  {
+    "id": "teatro-sao-luiz",
+    "name": "São Luiz Teatro Municipal",
+    "url": "https://www.teatrosaoluiz.pt/programacao/",
+    "source_type": "institution",
+    "tier": "A",
+    "status": "verified"
+  },
+  {
+    "id": "casa-fernando-pessoa",
+    "name": "Casa Fernando Pessoa",
+    "url": "https://www.casafernandopessoa.pt/en/cfp/programme-of-events",
+    "source_type": "institution",
+    "tier": "A",
+    "status": "verified"
+  },
+  {
+    "id": "ulisboa-agenda",
+    "name": "Universidade de Lisboa Agenda",
+    "url": "https://www.ulisboa.pt/agenda",
+    "source_type": "institution",
+    "tier": "A",
+    "status": "verified"
+  },
+  {
+    "id": "tndm",
+    "name": "Teatro Nacional D. Maria II",
+    "url": "https://www.tndm.pt/pt/programacao/toda-a-programacao/",
+    "source_type": "institution",
+    "tier": "A",
+    "status": "verified"
+  },
+  {
+    "id": "agenda-cultural-ipl",
+    "name": "Agenda Cultural Politécnico de Lisboa",
+    "url": "https://agendacultural.ipl.pt/",
+    "source_type": "institution",
+    "tier": "A",
+    "status": "verified"
+  },
+  {
+    "id": "teatro-do-bairro-alto",
+    "name": "Teatro do Bairro Alto",
+    "url": "https://www.tdilisboa.com/comingsoon",
+    "source_type": "institution",
+    "tier": "A",
+    "status": "verified"
+  },
+  {
+    "id": "e-cultura",
+    "name": "e-cultura Agenda",
+    "url": "https://www.e-cultura.pt/agenda/",
+    "source_type": "curator-newsletter",
+    "tier": "B",
+    "status": "verified"
+  },
+  {
+    "id": "linha-de-fuga",
+    "name": "Linha de Fuga",
+    "url": "https://www.linhadefuga.pt/en/calendario",
+    "source_type": "independent-community",
+    "tier": "A",
+    "status": "verified"
+  },
+  {
+    "id": "gulbenkian-musica",
+    "name": "Gulbenkian Música",
+    "url": "https://gulbenkian.pt/musica/en/agenda/",
+    "source_type": "institution",
+    "tier": "A",
+    "status": "verified"
+  },
+  {
+    "id": "ifp-lisboa",
+    "name": "Institut français du Portugal",
+    "url": "https://www.ifp-lisboa.com/maisfranca/",
+    "source_type": "institution",
+    "tier": "A",
+    "status": "verified"
+  },
+  {
+    "id": "goethe-lisboa",
+    "name": "Goethe-Institut Portugal",
+    "url": "https://www.goethe.de/ins/pt/pt/ver.cfm",
+    "source_type": "institution",
+    "tier": "A",
+    "status": "verified"
+  },
+  {
+    "id": "agenda-cascais",
+    "name": "Cascais Agenda",
+    "url": "https://www.cascais.pt/agenda",
+    "source_type": "official-agenda",
+    "tier": "A",
+    "status": "verified"
+  },
+  {
+    "id": "agenda-almada",
+    "name": "Agenda Cultural Almada",
+    "url": "https://www.cm-almada.pt/agenda",
+    "source_type": "official-agenda",
+    "tier": "A",
+    "status": "verified"
+  },
+  {
+    "id": "ticketline-lisboa",
+    "name": "Ticketline Lisboa",
+    "url": "https://ticketline.sapo.pt/pesquisa?query=Lisboa",
+    "source_type": "event-platform",
+    "tier": "B",
+    "status": "verified"
+  },
+  {
+    "id": "viral-agenda-lisboa",
+    "name": "Viral Agenda Lisboa",
+    "url": "https://www.viralagenda.com/pt/lisboa",
+    "source_type": "commercial-curator",
+    "tier": "B",
+    "status": "lead-only"
+  }
+]

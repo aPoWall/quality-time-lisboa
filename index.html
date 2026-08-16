@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#ffffff">
+  <meta name="description" content="A curated radar for what is worth leaving home for in Lisbon.">
+  <meta property="og:title" content="Quality Time · Lisboa">
+  <meta property="og:description" content="What is worth leaving home for in Lisbon – verified, visual, current.">
+  <title>Quality Time · Lisboa</title>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='12' fill='%23000'/%3E%3Ccircle cx='30' cy='30' r='15' fill='none' stroke='%23c3ff00' stroke-width='5'/%3E%3Cpath d='M40 40l10 10M30 19v12l8 5' stroke='%23c3ff00' stroke-width='5' stroke-linecap='square'/%3E%3C/svg%3E">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css?v=12">
+</head>
+<body>
+  <header class="shell">
+    <a class="brand" href="#radar"><span class="brand-mark"><i></i></span><span><b>QUALITY TIME</b><small id="surface-label">LISBOA · CURATED</small></span></a>
+    <nav aria-label="Views">
+      <button class="tab active" data-view="radar">RADAR</button>
+      <button class="tab private-surface" data-view="saved">SAVED <span id="saved-count">0</span></button>
+      <button class="tab" data-view="sources">SOURCES</button>
+      <button class="tab" data-view="guide">HOW IT WORKS</button>
+    </nav>
+    <div class="shell-status"><i></i><span id="generated">LOADING</span><button id="refresh" class="private-surface" aria-label="Refresh">↻</button></div>
+  </header>
+
+  <main>
+    <section class="masthead">
+      <div><p class="eyebrow" id="today-label">LISBOA · TODAY</p><h1>Quality <span>time.</span></h1><p id="route-copy">A quiet edit of what is worth your time in Lisbon – events, places and food.</p></div>
+      <article class="receipt" id="source-receipt" data-evidence-state="resolving">
+        <header><i></i><b class="evidence-receipt__label">CHECKING SOURCES</b><strong class="evidence-receipt__count">…</strong></header>
+        <p class="evidence-receipt__detail">Resolving future events.</p><small class="evidence-receipt__source">SOURCE RECEIPT · /API/STATUS</small>
+      </article>
+    </section>
+
+    <section class="time-console" aria-label="Time window">
+      <div class="quick-days" id="horizon-control">
+        <button data-horizon="today" class="selected">TODAY</button><button data-horizon="tomorrow">TOMORROW</button><button data-horizon="3d">NEXT 3 DAYS</button><button data-horizon="weekend">WEEKEND</button><button data-horizon="7d">WEEK</button><button data-horizon="30d">MONTH</button>
+      </div>
+    </section>
+
+    <section id="radar" class="view active">
+      <article class="lead-signal">
+        <div id="signal-visual" class="lead-image"></div>
+        <div class="lead-copy"><p class="eyebrow" id="signal-label">TOP SIGNAL · TODAY</p><h2 id="signal-title">Lisbon is loading</h2><p id="signal-copy">Checking time, place and source.</p><a id="signal-link" target="_blank" rel="noreferrer">OPEN SOURCE ↗</a></div>
+        <div class="lead-score"><b id="signal-score">–</b><small id="signal-score-label">SIGNAL</small></div>
+      </article>
+
+      <section class="metrics"><div><b id="metric-visible">–</b><span>IN VIEW</span></div><div><b id="metric-events">–</b><span>UPCOMING</span></div><div><b id="metric-previews">–</b><span>WITH POSTERS</span></div><div><b id="metric-sources">–</b><span>SOURCES</span></div></section>
+
+      <details class="filter-drawer">
+        <summary><span>SEARCH & FILTERS</span><small id="filter-state">OPTIONAL</small></summary>
+        <section class="filters">
+          <label class="search"><span>SEARCH</span><input id="search" type="search" placeholder="AI, sound, cinema, Marvila…"></label>
+          <label class="private-surface"><span>FIT <output id="fit-min-label">45</output>–<output id="fit-max-label">100</output></span><div class="dual-fit"><input id="fit-min" type="range" min="0" max="100" value="45"><input id="fit-max" type="range" min="0" max="100" value="100"></div></label>
+          <label><span>SOURCE</span><select id="provenance"><option value="all">ALL SOURCES</option><option value="verified-research-seed">EDITORIAL</option><option value="public-jsonld">LIVE WEB</option><option value="telegram-signal">TELEGRAM LEADS</option></select></label>
+          <label><span>SORT</span><select id="sort"><option value="recommended">BEST FIT</option><option value="soonest">SOONEST</option><option value="signal">SOURCE SIGNAL</option></select></label>
+          <div class="range-console"><label>FROM <input id="day-start" type="range" min="0" max="90" value="0"><output id="day-start-label">TODAY</output></label><label>TO <input id="day-end" type="range" min="0" max="90" value="0"><output id="day-end-label">TODAY</output></label></div>
+          <button id="reset-filters">RESET</button>
+        </section>
+        <div class="topic-rail" id="topic-rail" aria-label="Topics"></div>
+      </details>
+      <div class="results-head"><p id="results-copy">SIGNALS</p><span>ENDED EVENTS HIDE AUTOMATICALLY</span></div>
+      <div id="event-list" class="event-grid"></div>
+      <section id="empty" class="empty hidden"><b>NO SIGNALS IN THIS WINDOW</b><p>Expand the date range or lower the fit threshold.</p></section>
+    </section>
+
+    <section id="saved" class="view private-surface"><div class="section-head"><div><p class="eyebrow">PRIVATE MEMORY</p><h2>Saved and hidden</h2></div><button id="clear-decisions">CLEAR LOCAL STATE</button></div><div id="decision-list" class="event-grid"></div><div id="hidden-list" class="hidden-list"></div></section>
+
+    <section id="sources" class="view"><div class="section-head"><div><p class="eyebrow">SOURCE MESH</p><h2>Where signals come from</h2></div><p>A – primary · B – useful lens · Telegram – lead until verified</p></div><div id="source-grid" class="source-grid"></div></section>
+
+    <section id="guide" class="view"><div class="section-head"><div><p class="eyebrow">OPERATING MODEL</p><h2>One radar, two surfaces</h2></div></div><div class="guide-grid"><article><span>01</span><h3>Scan a time window</h3><p>Use fast day presets or set an exact date window. Finished events disappear.</p></article><article><span>02</span><h3>Read the receipt</h3><p>Every card retains its original source, evidence state and verification level.</p></article><article class="private-surface"><span>03</span><h3>Train your fit</h3><p>More like this, less like this, save and hide update a private, explainable taste model.</p></article><article><span>04</span><h3>Public stays safe</h3><p>The phone guide contains verified public listings. Telegram and personal weights stay private.</p></article></div><section class="system-map"><article><small>PUBLIC</small><b>PHONE GUIDE</b><span>read-only, verified</span></article><i>→</i><article><small>PRIVATE</small><b>FIT LAB</b><span>votes + memory</span></article><i>→</i><article><small>DAILY</small><b>SOURCE CHECKER</b><span>public + Telegram mesh</span></article></section></section>
+  </main>
+
+  <template id="event-template"><article class="event-card"><figure class="poster"><img alt="" loading="lazy"><video muted loop playsinline preload="metadata"></video><div class="poster-fallback"><span></span><small>QUALITY TIME · LISBOA</small></div><div class="score-badge"><b></b><small></small></div><span class="poster-kind"></span></figure><div class="event-body"><div class="event-meta"><time class="date"></time><span class="tier"></span></div><h3></h3><p class="summary"></p><button class="why private-surface" type="button">WHY THIS FITS <span>+</span></button><div class="fit-receipt private-surface"></div><div class="tags"></div><div class="event-foot"><span class="venue"></span><span class="price"></span></div></div><div class="feedback private-surface"><button data-feedback="love">MORE LIKE THIS</button><button data-feedback="less">LESS LIKE THIS</button></div><div class="event-actions"><button class="private-surface" data-action="watch">SAVE</button><button class="private-surface" data-action="queue">QUEUE</button><button class="private-surface" data-action="hide">HIDE</button><a class="event-link" target="_blank" rel="noreferrer">OPEN ↗</a></div></article></template>
+  <div id="toast" class="toast" role="status" aria-live="polite"></div>
+  <script src="app.js?v=12" defer></script>
+</body>
+</html>
