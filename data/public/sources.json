@@ -486,5 +486,13 @@
     "source_type": "commercial-curator",
     "tier": "B",
     "status": "lead-only"
+  },
+  {
+    "id": "agentic-engineering-lisbon",
+    "name": "Agentic Engineering Lisbon",
+    "url": "https://luma.com/lfsrumua",
+    "source_type": "independent-community",
+    "tier": "A",
+    "status": "verified"
   }
 ]

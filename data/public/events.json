@@ -279,6 +279,31 @@
     "public_signal": 95
   },
   {
+    "id": "agentic-engineering-lisbon-2026-08-26",
+    "title": "Agentic Engineering Lisbon",
+    "start": "2026-08-26T19:00:00+01:00",
+    "end": "2026-08-26T22:00:00+01:00",
+    "venue": "The Nest Lisbon",
+    "city": "Lisboa",
+    "url": "https://luma.com/lfsrumua",
+    "image_url": "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=1,anim=false,background=white,quality=75,width=800,height=420/event-social/9z/1db41d7c-3787-455c-8568-2d123b5c5d6b.png",
+    "tags": [
+      "ai",
+      "agentic",
+      "founders",
+      "education",
+      "community"
+    ],
+    "price": "registration required",
+    "summary": "Technical lightning talks and peer conversations for founders, engineers and researchers building agentic workflows in production.",
+    "source_name": "Agentic Engineering Lisbon",
+    "source_type": "independent-community",
+    "source_tier": "A",
+    "confidence": 0.9,
+    "provenance": "verified-research-seed",
+    "public_signal": 95
+  },
+  {
     "id": "cyborg-library-2026-08-27",
     "title": "The Cyborg Library",
     "start": "2026-08-27T19:00:00+01:00",
