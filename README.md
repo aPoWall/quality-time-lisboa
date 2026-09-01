@@ -6,6 +6,17 @@ A calm, poster-first guide to what is worth your time in Lisbon.
 
 This repository is the public-safe interface snapshot. It contains verified public event data and source metadata. Personal preference weights, Telegram content, private locations and write-capable integrations are deliberately excluded.
 
+## Product identity
+
+**Quality Time · Lisboa** is the user-facing Lisbon surface of **EventRadar**,
+not a separate data product. The canonical URL is
+`https://events.2-59-171-122.sslip.io/`.
+
+Alex Povaliaev owns the product. Live collection and the public-safe data
+projection are owned by the private `aPoWall/lisbon-event-radar` repository and
+the VM105 `lisbon-event-radar-refresh` service. This public repository owns only
+the safe interface export and fallback snapshot.
+
 ## Interface
 
 - today, tomorrow, next three days, weekend, week and month;
